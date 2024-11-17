@@ -18,7 +18,11 @@ The dataset used is `GlobalWeatherRepository.csv`, which contains weather metric
 - LSTM Model RMSE: `z`
 
 ## Insights
-- [Summary of findings]
+- Seasonal Patterns: The time-series analysis revealed clear seasonal patterns in temperature and precipitation, with higher temperatures observed during summer months.
+
+Correlation Insights: A strong correlation was observed between humidity and temperature, suggesting that higher temperatures tend to coincide with higher humidity levels.
+
+Anomalies: The anomaly detection analysis identified several instances of unusually high temperatures, which could be linked to specific climatic events or data recording errors.
 
 ## Getting Started
 1. Clone the repository.
