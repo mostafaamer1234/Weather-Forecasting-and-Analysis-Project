@@ -1,2 +1,38 @@
 # Weather Forecasting and Analysis Project
- This project aims to analyze and forecast weather data using a combination of data cleaning, exploratory data analysis (EDA), and advanced machine learning models.
+
+## Project Overview
+This project aims to analyze and forecast weather data using ARIMA and LSTM models. It also includes anomaly detection for temperature data, providing insights that can support decision-making.
+
+## Dataset
+The dataset used is `GlobalWeatherRepository.csv`, which contains weather metrics like temperature, wind speed, and humidity for various countries and cities.
+
+## Methodology
+1. **Data Cleaning**: Handled missing values and outliers.
+2. **Exploratory Data Analysis**: Conducted time-series analysis and correlation analysis.
+3. **Forecasting Models**: Built ARIMA and LSTM models for temperature prediction.
+4. **Anomaly Detection**: Detected anomalies using z-score analysis.
+
+## Results
+- ARIMA Model MAE: `x`
+- ARIMA Model RMSE: `y`
+- LSTM Model RMSE: `z`
+
+## Insights
+- [Summary of findings]
+
+## Getting Started
+1. Clone the repository.
+2. Install dependencies listed in `requirements.txt`.
+3. Run the script using `python main.py`.
+
+## Dependencies
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- tensorflow
+- statsmodels
+
+## Contact
+For any questions, please reach out at amermostafa.official477@gmail.com.
